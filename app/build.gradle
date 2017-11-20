@@ -1,10 +1,12 @@
 apply plugin: 'com.android.application'
+//apply plugin: 'com.jakewharton.hugo'
+//apply plugin: 'com.antfortune.freeline'
 
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.cpxiao.minigame"
+        applicationId "com.cpxiao.minigamelib"
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1
@@ -61,7 +63,7 @@ android {
 }
 
 dependencies {
-    compile project(':AndroidUtils:library')
+//    compile project(':AndroidUtils:library')
     compile 'com.android.support:appcompat-v7:25.3.1'
     /**
      * Ads Start
@@ -85,3 +87,5 @@ dependencies {
 
     compile 'com.android.support:recyclerview-v7:25.3.1'
 }
+
+//apply plugin: 'com.google.gms.google-services'

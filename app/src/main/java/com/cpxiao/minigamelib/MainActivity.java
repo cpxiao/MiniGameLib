@@ -19,7 +19,7 @@ public class MainActivity extends BaseZAdsActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ZAdManager.getInstance().init(getApplicationContext());
-        loadAds();
+//        loadAds();
     }
 
     private void loadAds() {
