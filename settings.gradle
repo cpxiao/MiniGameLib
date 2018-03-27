@@ -2,4 +2,4 @@ include ':app'
 
 include ':AndroidUtils'
 project(':AndroidUtils').projectDir = new File('../__AndroidUtils/')
-include ':AndroidUtils:library'
+//include ':AndroidUtils:library'
